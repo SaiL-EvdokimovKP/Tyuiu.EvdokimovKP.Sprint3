@@ -9,11 +9,10 @@ namespace Tyuiu.EvdokimovKP.Sprint3.Task2.V12.Lib
             double i = 1;
             do
             {
-                i = i * (Math.Pow(300 / startValue + Math.Pow(value, startValue), startValue));
+                i = i * (Math.Pow(300 / (startValue + Math.Pow(value, startValue)), startValue));
                 startValue++;
-            }
-            while (i < stopValue);
-            return i;
+            } while (startValue <= stopValue);
+            return Math.Round(i, 3);
         }
     }
 }
