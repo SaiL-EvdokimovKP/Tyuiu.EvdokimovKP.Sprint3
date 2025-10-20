@@ -13,5 +13,5 @@ Console.WriteLine("Заменитель = " +  replaceable);
 Console.WriteLine("********************************************************************");
 Console.WriteLine("Решение:                                                            ");
 Console.WriteLine("********************************************************************");
-Console.WriteLine(ds.ReplaceCharOnNum(value, replaceable, replacement));
+Console.WriteLine("Строка с заменёнными символами - " + ds.ReplaceCharOnNum(value, replaceable, replacement));
 Console.ReadKey();

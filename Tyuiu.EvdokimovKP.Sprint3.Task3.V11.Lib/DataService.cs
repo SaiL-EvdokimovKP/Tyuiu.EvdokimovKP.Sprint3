@@ -7,8 +7,12 @@ namespace Tyuiu.EvdokimovKP.Sprint3.Task3.V11.Lib
         public string ReplaceCharOnNum(string value, char replaceable, char replacement)
         {
             foreach (char c in value)
+            {
                 if (c == replacement)
+                {
                     value = value.Replace(c, replaceable);
+                }
+            }
             return value;
         }
     }
