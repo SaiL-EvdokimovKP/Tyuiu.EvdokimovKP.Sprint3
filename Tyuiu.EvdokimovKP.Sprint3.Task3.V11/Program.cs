@@ -3,8 +3,8 @@
 DataService ds = new DataService();
 
 string value = "sqwreq vqwqq q";
-char replaceable = 'q';
-char replacement = '7';
+char replaceable = '7';
+char replacement = 'q';
 
 Console.WriteLine("Строка - " + value);
 Console.WriteLine("Заменяема буква - " +  replacement);
