@@ -8,9 +8,9 @@ namespace Tyuiu.EvdokimovKP.Sprint3.Task3.V11.Lib
         {
             foreach (char c in value)
             {
-                if (c == replacement)
+                if (c == replaceable)
                 {
-                    value = value.Replace(c, replaceable);
+                    value = value.Replace(c, replacement);
                 }
             }
             return value;
