@@ -17,3 +17,4 @@ Console.WriteLine(stopValue1);
 Console.WriteLine(stopValue2);
 Console.WriteLine(x);
 Console.WriteLine("y = " + ds.GetSumSumSeries(startValue1, startValue2, stopValue1, stopValue2));
+Console.ReadKey();

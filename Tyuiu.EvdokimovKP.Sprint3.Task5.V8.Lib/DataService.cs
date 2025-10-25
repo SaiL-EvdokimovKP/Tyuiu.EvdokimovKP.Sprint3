@@ -10,7 +10,7 @@ namespace Tyuiu.EvdokimovKP.Sprint3.Task5.V8.Lib
             int i, j;
             for (i = startValue1; i <= stopValue1; i++)
                 for (j = startValue2; j <= stopValue2; j++)
-                    y = y + ((1 / (Math.Sin(startValue2))) + 3);
+                    y = y + (1 / Math.Sin(j) + 3);
             return Math.Round(y, 3);
         }
     }
