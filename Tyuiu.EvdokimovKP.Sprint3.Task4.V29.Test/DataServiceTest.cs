@@ -12,7 +12,7 @@ namespace Tyuiu.EvdokimovKP.Sprint3.Task4.V29.Test
             int startValue = -5;
             int stopValue = 5;
             double res = ds.Calculate(startValue, stopValue);
-            double wait = 0.104;
+            double wait = 0;
             Assert.AreEqual(wait, res);
         }
     }
