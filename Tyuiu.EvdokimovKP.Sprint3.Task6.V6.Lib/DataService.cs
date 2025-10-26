@@ -8,14 +8,10 @@ namespace Tyuiu.EvdokimovKP.Sprint3.Task6.V6.Lib
         {
             int x;
             int result = 0;
-            int y = 10;
-            int z;
             for (x = startValue; x <= stopValue; x++)
                 for (int d = 1; d <= x; d++)
-                    if (x % d == 0)
-                        result += d;
-            if (y <= result)
-                z = result;
+                    if (x % d == 0 && d >10)
+                        result ++;
             return result;
         }
     }
